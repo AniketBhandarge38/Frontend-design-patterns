@@ -1,1 +1,1 @@
-# Frontend-design-patterns
+# Frontend-design-patterns and concepts

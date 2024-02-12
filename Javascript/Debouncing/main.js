@@ -12,7 +12,7 @@ const performDelay = function (cb, delay) {
     const context = this;
     const args = arguments;
     clearTimeout(timer);
-    timer = setTimeout(() => fetchData.apply(context, args), delay);
+    timer = setTimeout(() => cb.apply(context, args), delay);
   };
 };
 

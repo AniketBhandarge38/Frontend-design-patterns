@@ -7,7 +7,7 @@ const RandomQuote = () => {
     fetchQuote();
   }, []);
 
-  const fetchQuote = async (abortController) => {
+  const fetchQuote = async () => {
     const API_URL = "https://dummyjson.com/quotes/random";
 
     const response = await fetch(API_URL);

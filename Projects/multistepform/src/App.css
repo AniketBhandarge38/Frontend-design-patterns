@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+}
+
+.fill-details {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.5rem;
+}
+
+.container {
+  border: 2px solid black;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+  width: 25%;
+  margin: 0 auto;
+}

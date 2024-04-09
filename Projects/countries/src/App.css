@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.dark {
+  background-color: #363535;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 0 1rem;
+}
+
+nav button {
+  border: none;
+  background-color: #fff;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.search-filter-comp {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.search-comp input,
+.filter-comp select {
+  padding: 1rem;
+  width: 250px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border: none;
+  outline: none;
+}
+
+.counties-list-comp {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 2rem;
+  gap: 1rem;
+}
+
+.country-card {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  width: 320px;
+}
+
+.country-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: conver;
+}
+
+.country-card-details {
+  padding: 1rem;
+}

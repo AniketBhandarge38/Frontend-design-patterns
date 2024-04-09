@@ -1,0 +1,107 @@
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #657786;
+  padding: 0 1rem;
+  color: #fff;
+}
+
+nav button {
+  padding: 0.5rem;
+  font-size: medium;
+  background-color: darkslategrey;
+  color: #fff;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+}
+
+.emp-list-section {
+  width: 100%;
+}
+.emp-list-section h2 {
+  text-align: center;
+  color: darkslategrey;
+}
+.emp-info-section {
+  width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.emp-list li {
+  list-style: none;
+  background-color: #657786;
+  color: #fff;
+  padding: 0.1rem 0.5rem;
+  margin: 0.1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.emp-list li:hover {
+  background-color: darkslategrey;
+  cursor: pointer;
+}
+
+.emp-info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: darkslategray;
+}
+
+.emp-info-section img {
+  width: 400px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #657786;
+  padding: 1rem;
+  gap: 0.4rem;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  z-index: 10;
+  background-color: #fff;
+}
+
+form input {
+  padding: 0.5rem;
+}
+
+form button {
+  width: 40px;
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+}
+
+.modal-overlay {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}

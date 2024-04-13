@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+header {
+  background-color: skyblue;
+  height: 10vh;
+  position: sticky;
+  top: 0;
+}
+
+aside {
+  background-color: burlywood;
+  height: 80vh;
+  width: 20%;
+}
+
+main {
+  background-color: lightgreen;
+  height: 80vh;
+  width: 80%;
+  position: absolute;
+  right: 0;
+}
+
+footer {
+  background-color: brown;
+  height: 10vh;
+}
